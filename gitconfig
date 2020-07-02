@@ -1,0 +1,5 @@
+[user]
+	name = Mario Lopez
+	email = mario@techmunchies.net
+[core]
+	excludesfile = /Users/Mario/.gitignore_global

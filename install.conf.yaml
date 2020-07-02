@@ -1,5 +1,6 @@
 - clean: ['~']
 
 - link:
-
-
+    ~/.Brewfile:
+    ~/.gitconfig:
+    ~/.gitignore_global:
