@@ -1,0 +1,23 @@
+#! /bin/zsh
+
+# Run this on a new macOS system to get it up-and-running
+
+# Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+# Install macOS Commandline tools
+xcode-select --install
+
+# Create Code dir
+mkdir ~/Code
+
+# Git clone this repo
+git clone git@github.com:mariolopjr/dotfiles.git ~/Code/Dotfiles
+
+# Run install
+sh ~/Code/Dotfiles/install
+
+# Install apps using Homebrew
+brew bundle install
+
+# Capture NPM, Ruby, and Python packages here...
