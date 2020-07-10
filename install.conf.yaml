@@ -4,8 +4,11 @@
     ~/.Brewfile:
     ~/.gitconfig:
     ~/.gitignore_global:
+    ~/.iterm2:
     ~/.zprezto: prezto
     ~/.zprezto-contrib/zsh-nvm:
         create: true
         path: prezto-contrib/zsh-nvm
-    ~/.zprezto-contrib/zsh-z: prezto-contrib/zsh-z
+    ~/.zprezto-contrib/zsh-z:
+        create: true
+        path: prezto-contrib/zsh-z
