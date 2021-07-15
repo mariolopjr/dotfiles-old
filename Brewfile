@@ -1,3 +1,7 @@
+tap "apparition47/tap"
+tap "cloudflare/cloudflare"
+tap "gcenx/wine"
+tap "homebrew/aliases"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
@@ -5,57 +9,93 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-brew "python@3.8"
 brew "isl"
+brew "tbb"
+brew "suite-sparse"
+brew "ceres-solver"
 brew "cmake"
-brew "composer"
-brew "dnsmasq", restart_service: true
+brew "curl"
 brew "dpkg"
+brew "faad2"
+brew "gnutls"
 brew "gobject-introspection"
 brew "harfbuzz"
+brew "libass"
+brew "rubberband"
+brew "srt"
 brew "ffmpeg"
+brew "open-mpi"
+brew "freetds"
 brew "gd"
+brew "gdk-pixbuf"
 brew "git"
 brew "go"
 brew "golangci-lint"
 brew "netpbm"
+brew "python@3.8"
+brew "pango"
+brew "librsvg"
 brew "hdf5"
 brew "hugo"
+brew "libheif"
+brew "imagemagick"
 brew "ldid"
 brew "libmatio"
+brew "libpq"
+brew "lua@5.1"
+brew "luarocks"
 brew "mas"
-brew "mysql@5.7", restart_service: true
-brew "nginx", restart_service: true
+brew "nmap"
 brew "node"
-brew "php", link: false
-brew "php@7.4", restart_service: true, link: true
+brew "numpy", link: false
+brew "poppler"
+brew "pyqt"
+brew "sip"
+brew "smartmontools"
 brew "sox"
 brew "swig"
+brew "vips"
+brew "vtk"
+brew "wget"
 brew "youtube-dl"
+brew "cloudflare/cloudflare/cloudflared"
+cask "ableton-live-suite"
 cask "adobe-acrobat-reader"
 cask "altserver"
 cask "bartender"
+cask "bettertouchtool"
 cask "calibre"
 cask "carbon-copy-cloner"
+cask "crossover"
 cask "discord"
 cask "disk-inventory-x"
 cask "docker"
+cask "dogecoin"
 cask "firefox-developer-edition"
+cask "fission"
 cask "font-fira-code"
+cask "font-jetbrains-mono"
+cask "gcenx-wine-stable"
+cask "hex-fiend"
+cask "imageoptim"
 cask "imazing"
 cask "istat-menus"
+cask "jetbrains-toolbox"
 cask "keka"
+cask "kindle-previewer"
 cask "little-snitch"
 cask "logitech-options"
 cask "mactex"
 cask "magicavoxel"
+cask "mailtrackerblocker"
 cask "micro-snitch"
 cask "microsoft-teams"
 cask "multipatch"
+cask "musicbrainz-picard"
 cask "native-access"
-cask "powershell"
+cask "osxfuse"
 cask "safari-technology-preview"
-cask "sequel-pro"
+cask "signal"
 cask "slack"
 cask "sony-ps4-remote-play"
 cask "soundflower"
@@ -69,19 +109,15 @@ cask "vcv-rack"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "xld"
+cask "xquartz"
 mas "1Password 7", id: 1333542190
 mas "AdGuard for Safari", id: 1440147259
-mas "Compressor", id: 424390742
-mas "Final Cut Pro", id: 424389933
 mas "Keynote", id: 409183694
-mas "Logic Pro", id: 634148309
+mas "LimeChat", id: 414030210
 mas "Magnet", id: 441258766
-mas "MainStage", id: 634159523
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft Outlook", id: 985367838
-mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "Microsoft Word", id: 462054704
-mas "Motion", id: 434290957
+mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Parallels Desktop", id: 1085114709
 mas "PCalc", id: 403504866
+mas "Xcode", id: 497799835
